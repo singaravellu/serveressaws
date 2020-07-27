@@ -41,11 +41,7 @@ public class EmpController {
 
 	}
 
-	@GetMapping(value = "/viewBy/{id}")
-	public Employee EmployeeViewByID(@PathVariable int id) {
-
-		return empService.ViewById(id);
-	}
+	
 	
 	@DeleteMapping(value = "/delete/{id}")
 	public String deleteByID(@PathVariable int id) {

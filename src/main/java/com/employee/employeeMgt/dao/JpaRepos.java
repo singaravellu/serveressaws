@@ -8,6 +8,5 @@ import com.employee.employeeMgt.pojo.Employee;
 @Repository
 public interface JpaRepos extends JpaRepository<Employee,Integer> {
 
-	public Employee findByEMPLOYEID(int id);
 	
 }

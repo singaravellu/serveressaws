@@ -60,9 +60,7 @@ public class EmployeeService  {
 
 	}
 
-	public Employee ViewById(int id) {
-		return repo.findByEMPLOYEID(id);
-	}
+	
 
 	public List<Employee> viewAll()  {
 		List<Employee> empList= repo.findAll();
